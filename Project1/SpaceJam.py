@@ -17,16 +17,8 @@ class MyApp(ShowBase):
         self.Planet5 = spaceJamClasses.Planet(self.loader, "./Assets/Planets/protoPlanet.x", self.render, 'Planet5', "./Assets/Planets/Planet5.jpg", (700, -2000, 100), 500)
         self.Planet6 = spaceJamClasses.Planet(self.loader, "./Assets/Planets/protoPlanet.x", self.render, 'Planet6', "./Assets/Planets/Planet6.jpg", (0, -900, -1400), 700)
         self.SpaceStation1 = spaceJamClasses.SpaceStation(self.loader, "./Assets/Space Station/spaceStation.egg", self.render, 'Space Station', "./Assets/Space Station/SpaceStation1_Dif2.png", (1500, 1000, -100), 40)
-        self.Hero = spaceJamClasses.Spaceship(self.loader, "./Assets/Spaceships/Dumbledore.egg", self.render, 'Hero', "./Assets/Spaceships/spacejet_C.png", Vec3(1000, 1200, -50), 50)
+        self.Hero = spaceJamClasses.Spaceship(self.loader, "./Assets/Spaceships/Dumbledore.egg", self.render, 'Hero', "./Assets/Spaceships/spacejet_C.png", (1000, 1200, -50), 50)
         
-
-
-
-
-#all new functions for lab 2
-
-    #def DrawBaseballSeams(self, centralObject, droneName, step, numSeams, radius = 1):
-        #unitVec = defensePaths.BaseballSeams
 
 app = MyApp()
 app.run()
